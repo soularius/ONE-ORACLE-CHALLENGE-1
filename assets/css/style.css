@@ -301,6 +301,10 @@ body {
     word-wrap: break-word;
 }
 
+.btn-copy {
+    max-width: 100%;
+}
+
 @media screen and (max-width: 1400.5px) {
     .lat-encript {
         width: 63%;
