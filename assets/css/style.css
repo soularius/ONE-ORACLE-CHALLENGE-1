@@ -300,3 +300,51 @@ body {
     font-size: 1.5rem;
     word-wrap: break-word;
 }
+
+@media screen and (max-width: 1400.5px) {
+    .lat-encript {
+        width: 63%;
+    }
+
+    .lat-desencript {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 991.5px) {
+    .lat-encript {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .lat-desencript {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 65px;
+    }
+
+    .section-encript {
+        max-width: 100%;
+    }
+
+    .navbar-logo .container-logo {
+        min-width: max-content;
+    }
+
+    .main-home {
+        padding: 74px 40px;
+    }
+
+    .section-encript .box-encript,
+    .section-encript .footer-encript {
+        max-width: 100%;
+    }
+
+    .navbar-logo .container-logo img {
+        width: 31px;
+    }
+
+    .section-encript {
+        margin-top: 116px;
+    }
+}
