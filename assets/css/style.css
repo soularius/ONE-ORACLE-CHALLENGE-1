@@ -1,0 +1,302 @@
+:root {
+    --blue-light: #F3F5FC;
+    --blue-dark: #0A3871;
+    --gray-light: #D8DFE8;
+    --gray: #65747D;
+    --gray-medium: #495057;
+    --gray-dark: #343A40;
+    --white: #FFFFFF;
+    --black: #000000;
+    --transparent: rgba(0, 0, 0, 0);
+}
+
+
+html {
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+body {
+    overflow: hidden;
+    background-color: var(--blue-light);
+    margin: 0;
+}
+
+.btn-blue {
+    max-width: 328px;
+    width: 100%;
+    min-height: 67px;
+    background-color: var(--blue-dark);
+    border-radius: 24px;
+    box-shadow: none;
+    outline: none;
+    color: var(--white);
+    border: 1px solid var(--blue-dark);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.19rem;
+    cursor: pointer;
+}
+
+.btn-blue:hover {
+    background-color: var(--gray-light);
+    color: var(--blue-dark);
+    border: 1px solid var(--blue-dark);
+}
+
+.btn-gray {
+    max-width: 328px;
+    width: 100%;
+    min-height: 67px;
+    background-color: var(--gray-light);
+    border-radius: 24px;
+    box-shadow: none;
+    outline: none;
+    color: var(--blue-dark);
+    border: 1px solid var(--blue-dark);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.19rem;
+    cursor: pointer;
+}
+
+.btn-gray:hover {
+    background-color: var(--blue-dark);
+    color: var(--white);
+    border: 1px solid var(--blue-dark);
+}
+
+.btn-transparent {
+    max-width: 328px;
+    width: 100%;
+    min-height: 67px;
+    background-color: var(--transparent);
+    border-radius: 24px;
+    box-shadow: none;
+    outline: none;
+    color: var(--blue-dark);
+    border: 1px solid var(--blue-dark);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.19rem;
+    cursor: pointer;
+}
+
+.btn-transparent:hover {
+    background-color: var(--blue-dark);
+    color: var(--white);
+    border: 1px solid var(--blue-dark);
+}
+
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.bg-gray {
+    background-color: var(--gray);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-transparent {
+    background-color: var(--transparent);
+}
+
+.color-blue-dark {
+    color: var(--blue-dark);
+}
+
+.color-blue-dark::placeholder {
+    color: var(--blue-dark);
+}
+
+.color-gray-dark {
+    color: var(--gray-dark);
+}
+
+.color-gray-medium {
+    color: var(--gray-medium);
+}
+
+.color-white {
+    color: var(--white);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-none {
+    display: none;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.hidden {
+    height: 0;
+    opacity: 0;
+}
+
+.show {
+    height: 100%;
+    opacity: 1;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-stretch {
+    align-items: stretch;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.border-none {
+    border: none;
+}
+
+.border-none:focus-visible {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.main-home {
+    max-width: 1440px;
+    padding: 40px;
+    gap: 20px;
+}
+
+.navbar-logo {
+}
+
+.navbar-logo .container-logo {
+    min-width: 120px;    
+}
+
+.navbar-logo .container-logo img {
+    width: 38px; 
+    height: auto;
+}
+
+.lat-encript {
+    max-width: 1000px;
+    width: 68%;
+}
+
+.lat-desencript {
+    max-width: 400px;
+    width: 28%;
+    min-height: 85vh;
+}
+
+.section-encript {
+    max-width: 660px;
+    margin-top: 80px;
+    flex: 1;
+    padding-bottom: 32px;
+}
+
+.section-encript .footer-encript {
+    margin-top: 16px;
+}
+
+.section-encript .box-encript,
+.section-encript .footer-encript {
+    max-width: 680px;
+    width: 100%;
+}
+
+.section-encript .footer-encript .box-footer-btn {
+    gap: 24px;
+}
+
+.section-encript .box-encript .input-text-encript,
+.section-encript .box-encript .input-text-encript::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.small-text-icon-info {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    font-size: 0.6rem;
+    font-weight: 600;
+    margin-right: 8px;
+}
+
+.text-info {
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.lat-desencript .box-desencript {
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    padding: 32px;
+}
+
+.lat-desencript .box-desencript .box-img-sleep-desencript {
+    max-width: 336px;
+}
+
+.lat-desencript .box-desencript .box-img-sleep-desencript .img-sleep {
+    width: 100%;
+    height: auto;
+}
+
+.title-info-desencript {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.small-text-info-desencript {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.box-text-desencript .text-desencript * {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+}

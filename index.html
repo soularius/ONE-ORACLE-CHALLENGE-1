@@ -1,15 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CHALLENGER 1 - ENCRIPT TEXT</title>
-    <link rel="icon" type="image/jpg" href="/assets/img/logo.png"/>
-    <link rel="stylesheet" href="./assets/css/fonts.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="./assets/js/script.js"></script>
-</head>
-<body class="">
-</body>
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CHALLENGER 1 - ENCRIPT TEXT</title>
+        <link rel="icon" type="image/jpg" href="/assets/img/logo.png" />
+        <link rel="stylesheet" href="./assets/css/fonts.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <script src="./assets/js/script.js"></script>
+    </head>
+
+    <body class="d-flex justify-content-center">
+        <main class="main-home d-flex justify-content-between w-100 align-items-stretch flex-wrap">
+            <section class="d-flex lat-encript flex-column align-items-center justify-content-between">
+                <header class="d-flex w-100">
+                    <nav class="navbar navbar-logo d-flex">
+                        <div class="container-logo d-flex justify-content-center align-items-center">
+                            <img src="./assets/img/logo.png" alt="Main logo web page">
+                        </div>
+                    </nav>
+                </header>
+                <section class="section-encript d-flex flex-column w-100 justify-content-between">
+                    <div class="box-encript d-flex">
+                        <textarea id="input-text-encript"
+                            class="color-blue-dark input-text-encript w-100 bg-transparent border-none"
+                            placeholder="Ingrese el texto aqui" rows="10"></textarea>
+                    </div>
+                    <div class="footer-encript">
+                        <div class="box-footer-info d-flex align-items-center">
+                            <span
+                                class="small-text-icon-info color-white bg-gray font-inter d-flex justify-content-center align-items-center">!</span>
+                            <p class="text-info font-inter">Solo letras minúsculas y sin acentos</p>
+                        </div>
+                        <div class="box-footer-btn d-flex justify-content-between">
+                            <button id="btn-encript"
+                                class="btn-encript font-inter btn-blue d-flex justify-content-center align-items-center">Encriptar</button>
+                            <button id="btn-desencript"
+                                class="btn-desencript font-inter btn-transparent d-flex justify-content-center align-items-center">Desencriptar</button>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section class="d-flex lat-desencript">
+                <div class="box-desencript bg-white w-100 d-flex flex-column justify-content-center align-items-center">
+                    <div id="text-encript"
+                        class="hidden box-text-desencript d-flex flex-column justify-content-between w-100">
+                        <div id="output-text-desencript" class="text-desencript font-inter">
+
+                        </div>
+                        <div class="box-footer-btn d-flex justify-content-between">
+                            <button id="btn-copy"
+                                class="btn-copy font-inter btn-transparent d-flex justify-content-center align-items-center">Copiar</button>
+                        </div>
+                    </div>
+                    <div id="sleep-encript" class="show sleep-data d-flex flex-column justify-content-center">
+                        <div class="box-img-sleep-desencript">
+                            <img src="./assets/img/muneco.png" alt="Sleep image" class="img-sleep">
+                        </div>
+                        <div class="box-text-info-desencript">
+                            <p class="title-info-desencript text-center font-inter color-gray-dark">Ningún mensaje fue
+                                encontrado</p>
+                            <p class="small-text-info-desencript text-center font-inter color-gray-medium">Ingresa el texto
+                                que deseas encriptar o desencriptar</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
