@@ -6,6 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let btnDesencript = document.getElementById('btn-desencript');
     btnDesencript.addEventListener('click', desencriptText);
+
+    let btnCopy = document.getElementById('btn-copy');
+    btnCopy.addEventListener('click', copyText);
 });
 
 function validateTextInput() {
@@ -115,4 +118,15 @@ function desencriptText() {
         boxOutput.classList.remove('d-none');
         boxSleep.classList.add('d-none');
     }, 500);
+}
+
+function copyText() {
+    const outputDiv = document.getElementById('output-text-desencript');
+    const text = outputDiv.innerText;
+
+    navigator.clipboard.writeText(text).then(() => {
+        alert('Texto copiado al portapapeles');
+    }).catch(err => {
+        console.error('Error al copiar el texto: ', err);
+    });
 }
