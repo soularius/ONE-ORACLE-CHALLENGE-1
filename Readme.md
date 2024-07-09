@@ -44,17 +44,29 @@ Este proyecto es una aplicación web simple que permite encriptar y desencriptar
 ## Estructura del Proyecto
 
 encriptador-texto/
+
 ├── assets/
+
 │ ├── css/
+
 │ │ ├── style.css
+
 │ │ ├── fonts.css
+
 │ ├── js/
+
 │ │ ├── script.js
+
 │ ├── fonts/
+
 │ │ ├── inter/*
+
 │ ├── img/
+
 │ │ ├── logo.png
+
 │ │ └── muneco.png
+
 └── index.html
 
 ## Capturas
