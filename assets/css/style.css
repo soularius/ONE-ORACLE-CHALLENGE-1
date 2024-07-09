@@ -348,3 +348,37 @@ body {
         margin-top: 116px;
     }
 }
+
+@media screen and (max-width: 768.5px) {
+    .lat-desencript .box-desencript .box-img-sleep-desencript {
+        display: none;
+    }
+
+    .lat-desencript {
+        min-height: max-content;
+    }
+
+    .lat-desencript .box-desencript {
+        height: max-content;
+    }
+
+    .lat-desencript .box-desencript .sleep-data {
+        height: max-content;
+    }
+}
+
+@media screen and (max-width: 576.5px) {
+    .main-home {
+        padding: 24px;
+    }
+
+    .btn-encript,
+    .btn-desencript {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .section-encript .footer-encript .box-footer-btn {
+        flex-wrap: wrap;
+    }
+}
