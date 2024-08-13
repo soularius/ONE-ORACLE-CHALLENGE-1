@@ -136,6 +136,10 @@ body {
     flex-wrap: wrap;
 }
 
+.text-no-decore {
+    text-decoration: none;
+}
+
 .hidden {
     height: 0;
     opacity: 0;
@@ -305,6 +309,22 @@ body {
     max-width: 100%;
 }
 
+.footer {
+    padding: 0px 40px;
+}
+.text-footer, .text-footer * {
+    color: var(--blue-light);
+}
+
+.text-footer a {
+    font-weight: 500;
+    text-decoration: double underline;
+}
+
+.text-footer a:hover {
+    color: var(--blue-dark);
+}
+
 @media screen and (max-width: 1400.5px) {
     .lat-encript {
         width: 63%;
@@ -372,6 +392,11 @@ body {
 }
 
 @media screen and (max-width: 576.5px) {
+    .footer {
+        padding: 0px 15px;
+        flex-direction: column;
+    }
+
     .main-home {
         padding: 24px;
     }
